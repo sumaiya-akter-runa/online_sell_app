@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
       ),
 
       body: GridView.count(
-        crossAxisCount: 2,
+        crossAxisCount: 3,
         mainAxisSpacing: 10,
         crossAxisSpacing: 10,
         children: [
