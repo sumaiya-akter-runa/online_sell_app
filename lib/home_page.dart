@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
         mainAxisSpacing: 10,
         crossAxisSpacing: 10,
         children: [
-          GestureDetector(
+          InkWell(
             onTap: (){
               Fluttertoast.showToast(msg: section1Name);
               Navigator.push(context, MaterialPageRoute(builder: (context)=>ProductDetails(name: section1Name,image: image1,description: section1Description)));//for going one page to another page
@@ -70,7 +70,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          GestureDetector(
+          InkWell(
             onTap: (){
               Fluttertoast.showToast(msg: section2Name);
               Navigator.push(context, MaterialPageRoute(builder: (context)=>ProductDetails(name: section2Name,image: image2,description: section2Description)));
@@ -112,7 +112,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          GestureDetector(
+          InkWell(
             onTap: (){
               Fluttertoast.showToast(msg: section3Name);
               Navigator.push(context, MaterialPageRoute(builder: (context)=>ProductDetails(name: section3Name,image: image3,description: section3Description)));//for going one page to another page
@@ -152,7 +152,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          GestureDetector(
+          InkWell(
             onTap: (){
               Fluttertoast.showToast(msg: section4Name);
               Navigator.push(context, MaterialPageRoute(builder: (context)=>ProductDetails(name: section4Name,image: image4,description: section4Description)));//for going one page to another page
@@ -193,7 +193,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          GestureDetector(
+          InkWell(
             onTap: (){
               Fluttertoast.showToast(msg: section5Name);
               Navigator.push(context, MaterialPageRoute(builder: (context)=>ProductDetails(name: section5Name,image: image5,description: section5Description)));//for going one page to another page
@@ -233,7 +233,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
-          GestureDetector(
+          InkWell(
             onTap: (){
               Fluttertoast.showToast(msg: section6Name);
               Navigator.push(context, MaterialPageRoute(builder: (context)=>ProductDetails(name: section6Name,image: image6,description: section6Description)));//for going one page to another page

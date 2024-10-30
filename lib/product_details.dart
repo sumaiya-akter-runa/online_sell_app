@@ -18,7 +18,7 @@ class _ProductDetails extends State<ProductDetails> {
   Widget build(BuildContext context) {
 
     var screenWidth = MediaQuery.sizeOf(context).width;
-    var fontSize = screenWidth > 600 ? 28.0 : 18.0;
+    var fontSize = screenWidth > 1000 ? 30.0 : 20.0;
 
 
     return Scaffold(
@@ -76,7 +76,7 @@ class _ProductDetails extends State<ProductDetails> {
                       padding: const EdgeInsets.all(15.0),
                       child: Text(widget.description,
                         style:GoogleFonts.acme(
-                            fontSize: 16
+                            fontSize: fontSize,
                         ) ,),
                     ),
                   )
